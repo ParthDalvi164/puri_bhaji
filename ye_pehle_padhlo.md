@@ -1,13 +1,18 @@
-FOR NODE PROJECTS :
+FOR NODE :
 - node init
 - node (filename).js
 
-FOR EXPRESS PROJECT :
+FOR EXPRESS :
 - node init
 - npm install express --save
 - node (filename).js
 
-FOR REACT : (waise ye karneki jarurat nhi! already app bani hain)
--  npx create-react-app my-app
--  cd my-app
--  npm start
+FOR REACT : 
+- npm install -g create-react-app
+- npx create-react-app my-app
+- cd my-app
+- npm start
+
+FOR ROUTER :
+- npm install react-router-dom@6
+- npm start
